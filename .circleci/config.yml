@@ -4,7 +4,7 @@
      docker:
        - image: circleci/ruby:2.4.1
      steps:
-       - checkoutone
+       - checkout
        - run: echo "A first hello"
        - run: sleep 25
    two:  
@@ -20,3 +20,4 @@
      jobs:
        - one
        - two
+       
