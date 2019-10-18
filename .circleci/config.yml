@@ -1,11 +1,11 @@
  version: 2
  jobs:
-   ono:
+   one:
      build:
        docker:
          - image: circleci/ruby:2.4.1
        steps:
-         - checkout
+         - checkoutone
          - run: echo "A first hello"
          - run: sleep 25
    two:  
